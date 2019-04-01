@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
-h1{
-color: #00c5ff;
-font-size: 100px;
-font-family: 'Staatliches', cursive;
-line-height: 2px;
+div.example {
+	color: #00c5ff;
+	font-family: 'Staatliches', cursive;
+	line-height: 2px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0px;
+	letter-spacing: 5px;
 }
-
-footer {
-	text-align: center;
-	background-color: #333;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 15px;
+h2 {
+	padding-bottom: 300px;
+	padding-top: 500px;
+	background-image: url("https://static.canyon.com/_img/mtb/spectral/2019/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 50px;
+	margin: 0px;
+}
+p {
+	font-size: 20px;
 	font-family: Segoe UI;
 }
 
@@ -23,23 +30,41 @@ body {
 	text-align: center;
 	background-color: black;
 	font-size: 20px;
+	margin: 0px;
+}
+footer {
+	text-align: center;
+	background-color: #333;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 15px;
+	font-family: Segoe UI;
 }
 
-.head-image {
+@media screen and (min-width: 814px) {
+  div.example {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 813px) {
+  div.example {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 381px) {
+  div.example {
+    font-size: 20px;
+  }
+}
+
+.header-image {
   max-width: 2000px;
   position: relative;
   margin: auto;
 }
 
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 
 .topnav {
@@ -71,12 +96,10 @@ body {
   background-color: #ddd;
   color: black;
 }
-
 .displayed{
 	border-bottom: solid 3px #00c5ff;
 	background-color: #4d4d4d;
 }
-
 
 .active {
   background-color: #00c5ff;
