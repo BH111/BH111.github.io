@@ -10,18 +10,46 @@ div.example {
 	margin: 0px;
 	letter-spacing: 5px;
 }
+
 h2 {
-	padding-bottom: 300px;
-	padding-top: 500px;
-	background-image: url("https://static.canyon.com/_img/mtb/spectral/2019/header.jpg");
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-image: url("Bike.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 30%;
+	font-size: 50px;
+	margin: 0px;
+}
+h3, h4, h6 {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-image: url("");
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-size: 50px;
 	margin: 0px;
 }
+h5 {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 50px;
+	margin: 0px;
+}
+
+.text {
+  font-size: 15px;
+}
+
 p {
 	font-size: 20px;
 	font-family: Segoe UI;
+	text-align: left;
+	margin-left: 90px; 
+	margin-right: 90px;
 }
 
 body {
@@ -58,13 +86,6 @@ footer {
     font-size: 20px;
   }
 }
-
-.header-image {
-  max-width: 2000px;
-  position: relative;
-  margin: auto;
-}
-
 
 
 .topnav {
